@@ -1,0 +1,172 @@
+.profile {
+    width: 250px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px 10px white;
+    padding: 0px;
+    float: left;
+
+}
+
+.profile:hover {
+    box-shadow: 0 0px 16px 0 red;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 5% 10px;
+    font-size: 0.7em;
+    cursor: pointer;
+    border-radius: 30%;
+    border: .5px solid;
+    box-shadow: 0px 0px 22px;
+
+}
+
+.success {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Green */
+
+.success:hover {
+    background-color: #46a049;
+}
+
+.info {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Blue */
+
+.info:hover {
+    background: #0b7dda;
+}
+
+.warning {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Orange */
+
+.warning:hover {
+    background: #e68a00;
+}
+
+.danger {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Red */
+
+.danger:hover {
+    background: #da190b;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;height: 12px;
+    color: black;
+}
+
+.html {
+    width: 100%;
+    background-color: #4CAF50;
+}
+
+.css {
+    width: 90%;
+    background-color: red;
+}
+
+.js {
+    width: 65%;
+    background-color: #2196F3;
+}
+
+.php {
+    width: 10%;
+    background-color: #808080;
+}
+
+.msword {
+    width: 70%;
+    background-color: #800;
+}
+
+.android {
+    width: 40%;
+    background-color: #880;
+}
+
+.apple {
+    width: 20%;
+    background-color: #808;
+}
+
+.adobe {
+    width: 80%;
+    background-color: green;
+}
+
+.social {
+    width: 66px;
+}
+
+.c1 {
+    width: 18px;
+    padding: 0px 2px;
+}
