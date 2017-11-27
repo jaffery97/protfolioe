@@ -8,7 +8,7 @@
 }
 
 .profile:hover {
-    box-shadow: 0 0px 16px 0 red;
+    box-shadow: 0 0px 16px 0 blue;
     transition: 1s;
     transition-timing-function: ease-in-out;
 }
@@ -39,7 +39,7 @@
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 16px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -48,6 +48,7 @@
 .overlay a:hover,
 .overlay a:focus {
     color: #f1f1f1;
+    font-size: 23px;
 }
 
 .overlay .closebtn {
