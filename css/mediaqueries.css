@@ -12,7 +12,7 @@ only screen and (min-width: 768px) and (max-width: 1023px) {
         font-size: 18px;
     }
 
- 
+
 }
 
 
@@ -26,30 +26,38 @@ only screen and (max-width: 767px) {
     }
 
     .profile {
-        width: 110px;
+        width: 120px;
 
+
+    }
+    .colum {
+        font-size: 15px;
+        font-family: sans-serif;
+        text-align: justify;
     }
     .topnav {
         font-size: 12px;
     }
-    
+
     .footer {
-     font-size: 10px;
+        font-size: 10px;
         padding: 3px
     }
-      .social {
- width: 40px;   
-}
+    .social {
+        width: 40px;
+    }
     .column {
-    
-    height: auto;
-    
-}
-    .c1 {
-    width: 18px;
-    padding: 0px 6px;
-}
 
+        height: auto;
+
+    }
+    .c1 {
+        width: 18px;
+        padding: 0px 6px;
+    }
+    .tablink {
+        font-size: 9px;
+    }
 }
 
 @media only screen and (max-width: 900px),
@@ -66,34 +74,35 @@ only screen and (min-width: 702px) and (max-width: 1023px) {}
         font-size: 40px;
         top: 15px;
         right: 35px;
- 
+
     }
     .column {
-    
-    height: auto;
-    
-}
+
+        height: auto;
+
+    }
     .c1 {
-    width: 18px;
-    padding: 0px 6px;
-}
-  
+        width: 18px;
+        padding: 0px 6px;
+    }
+
 }
 
 
 
 @media only screen and (max-width: 326px),
 only screen and (max-device-width: 326px),
-    only screen and (max-width: 326px) {
-        
-        .footer {
-     font-size: 8px;
+only screen and (max-width: 326px) {
+
+    .footer {
+        font-size: 8px;
         padding: 3px
     }
-        .c1 {
-    width: 18px;
-    padding: 0px 4px;
-}
+    .c1 {
+        width: 18px;
+        padding: 0px 4px;
+    }
+
 }
 
 
@@ -103,11 +112,7 @@ only screen and (max-device-width: 326px),
 }
 
 @media only screen and (max-height: 900px),
-only screen and (max-height: 768px) and (max-height: 50%) {
-    
-   
-    
-}
+only screen and (max-height: 768px) and (max-height: 50%) {}
 
 
 
