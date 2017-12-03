@@ -6,7 +6,7 @@
     body {
         margin: 0;
         padding: 0px;
-        background: linear-gradient(to right, rgba(212,212,212,1) 0%, rgba(15,111,112,1) 0%, rgba(15,111,112,0.77) 76%);
+        background: linear-gradient(to right, rgba(212, 212, 212, 1) 0%, rgba(15, 111, 112, 1) 0%, rgba(15, 111, 112, 0.77) 76%);
         font-family: sans-serif;
 
     }
@@ -16,7 +16,7 @@
     @media only screen and (max-width: 709px) {
         .mobile-only {
             visibility: visible;
-            
+
         }
         .nav {
             display: none;
@@ -74,10 +74,10 @@
 
     #tab2 {
         background: linear-gradient(to bottom, #006699 0%, #33ccff 100%);
-}
+    }
 
     #tab3 {
-        background-color: Lavender ;
+        background-color: Lavender;
     }
 
     #tab4 {
@@ -90,9 +90,9 @@
         border-radius: 100%;
         padding: 10px;
         float: left;
-        -webkit-box-shadow: 10px 0px 101px 27px rgba(0,0,0,0.53);
--moz-box-shadow: 10px 0px 50px 27px rgba(0,0,0,0.53);
-box-shadow: 10px 0px 100px 27px rgba(0,0,0,0.53);
+        -webkit-box-shadow: 10px 0px 101px 27px rgba(0, 0, 0, 0.53);
+        -moz-box-shadow: 10px 0px 50px 27px rgba(0, 0, 0, 0.53);
+        box-shadow: 10px 0px 100px 27px rgba(0, 0, 0, 0.53);
 
     }
 
@@ -238,7 +238,7 @@ box-shadow: 10px 0px 100px 27px rgba(0,0,0,0.53);
         background-color: #800;
     }
 
-.mspower {
+    .mspower {
         width: 70%;
         background-color: #310;
     }
@@ -272,10 +272,91 @@ box-shadow: 10px 0px 100px 27px rgba(0,0,0,0.53);
         float: right;
         padding-right: 26px;
     }
-.boldd {
-    font-weight: bold;
-}
 
-.logo {
-    width:300px;
-}
+    .boldd {
+        font-weight: bold;
+    }
+
+    .logo {
+        width: 300px;
+    }
+
+
+    form {
+        padding: 15px;
+        background-color: lightsteelblue;
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        border: 1px solid dodgerblue;
+        width: 100%;
+        padding-left: 2px;
+        height: 20px;
+        padding: 13px;
+    }
+
+
+    /*  SECTIONS  */
+
+    .section {
+        clear: both;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    /*  COLUMN SETUP  */
+
+    .col {
+        display: block;
+        float: left;
+        margin: 1% 0 1% 3.6%;
+    }
+
+    .col:first-child {
+        margin-left: 0;
+    }
+
+    /*  GROUPING  */
+
+    .group:before,
+    .group:after {
+        content: "";
+        display: table;
+    }
+
+    .group:after {
+        clear: both;
+    }
+
+    .group {
+        zoom: 1;
+        /* For IE 6/7 */
+    }
+
+    /*  GRID OF TWO  */
+
+    .span_2_of_2 {
+        width: 48%;
+    }
+
+    .span_1_of_2 {
+        width: 48%;
+    }
+
+    /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+    @media only screen and (max-width: 480px) {
+        .col {
+            margin: 1% 0 1% 0%;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .span_2_of_2,
+        .span_1_of_2 {
+            width: 100%;
+            display: inline-block;
+        }
+    }

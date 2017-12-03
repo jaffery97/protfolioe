@@ -75,7 +75,6 @@ box-shadow: 10px 0px 101px 27px rgba(0,0,0,0.53);
 
 
 
-
 .column.side {
     width: 30%;
     background-image: url(../img/bg.jpg);
@@ -126,6 +125,11 @@ box-shadow: 10px 0px 51px 27px rgba(0,0,0,0.53);
         width: 100%;
         padding: 15px;
         height: 100%
+    }
+    
+     .colum.sid2 {
+        width: 50%;
+        
     }
 }
 
