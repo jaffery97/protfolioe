@@ -325,38 +325,4 @@
 
 
       
-        .tent {
-        color: white;
-        display: none;
-        padding: 10px;
-            padding-top: 53px;
-        text-align: center;
        
-    }
-        
-         .tavlink {
-        background-color: #555;
-        color: white;
-        float: left;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 14px 16px;
-        font-size: 17px;
-        width: 50%;
-    }
-
-    .tavlink:hover {
-        background-color: #777;
-    }
-
-    /* Style the tab content */
-
-  
-    #Software {
-        background-color: none;
-    }
-
-    #Languages {
-        background-color: none;
-    }
