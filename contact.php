@@ -20,6 +20,7 @@ if(isset($_POST['email'])) {
         !isset($_POST['last_name']) ||
         !isset($_POST['email']) ||
         !isset($_POST['telephone']) ||
+        !isset($_POST['uploaded']) ||
         !isset($_POST['comments'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
@@ -30,6 +31,7 @@ if(isset($_POST['email'])) {
     $last_name = $_POST['last_name']; // required
     $email_from = $_POST['email']; // required
     $telephone = $_POST['telephone']; // not required
+    $telephone = $_POST['uploaded']; // not required
     $comments = $_POST['comments']; // required
  
     $error_message = "";
@@ -71,6 +73,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Last Name: ".clean_string($last_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
+    $email_message .= "Uploaded: ".clean_string($uploaded)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
  
 // create email headers
