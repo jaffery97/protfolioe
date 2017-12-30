@@ -65,7 +65,7 @@ a {
 .column {
     float: left;
     padding: 10px;
-    height:100%;
+    height:1000px;
     -webkit-box-shadow: 10px 0px 101px 27px rgba(0,0,0,0.53);
 -moz-box-shadow: 10px 0px 101px 27px rgba(0,0,0,0.53);
 box-shadow: 10px 0px 101px 27px rgba(0,0,0,0.53);
@@ -76,7 +76,7 @@ box-shadow: 10px 0px 101px 27px rgba(0,0,0,0.53);
 
 
 .column.side {
-    width: 30%;
+    width: 50%;
     background-image: url(../img/bg.jpg);
     border: 2px solid white;
 }
